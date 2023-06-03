@@ -1,49 +1,196 @@
 {
-  "users": [
+  "user": [
     {
-      "id": 1,
-      "name": "Ranjan",
+      "userName": "ranjan96",
+      "avatar": "https://img.freepik.com/premium-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg",
       "email": "ranjan@gmail.com",
       "password": "ranjan123",
-      "doctor": true
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "Sandhya",
+      "userName": "sandhya123",
       "email": "sandhya@gmail.com",
       "password": "sandhya123",
-      "doctor": false
+      "avatar": "https://img.freepik.com/premium-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg",
+      "id": 2
     },
     {
-      "name": "ajit",
+      "userName": "ajit123",
       "email": "ajit@gmail.com",
       "password": "ajit123",
-      "doctor": true,
+      "avatar": "https://img.freepik.com/premium-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg",
       "id": 3
+    },
+    {
+      "userName": "suraj123",
+      "email": "suran@gmail.com",
+      "password": "suraj123",
+      "avatar": "https://img.freepik.com/premium-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg",
+      "id": 4
+    },
+    {
+      "userName": "hii123",
+      "email": "hii@gmail.com",
+      "password": "hii123",
+      "avatar": "https://img.freepik.com/premium-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg",
+      "id": 5
     }
   ],
-  "appointments": [
+  "question": [
     {
       "id": 1,
-      "name": "Jane Doe",
-      "image": "https://example.com/doctor-image.jpg",
-      "specialization": "Dermatologist",
-      "experience": 10,
-      "location": "Los Angeles",
-      "date": "2023-04-05T12:00:00.000Z",
-      "slots": 2,
-      "fee": 150
+      "userAvatar": "https://img.freepik.com/premium-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg",
+      "username": "ranjan123",
+      "questionTitle": "How to sort an array in JavaScript?",
+      "questionDescription": "I'm struggling with sorting an array in JavaScript. Can someone please provide guidance?",
+      "language": "JavaScript",
+      "upvotes": 10,
+      "noOfAnswer": 3,
+      "postedDate": "2023-05-30",
+      "answers": [
+        {
+          "userAvatar": "https://img.freepik.com/premium-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg",
+          "username": "ajit123",
+          "answerText": "To sort an array in JavaScript, you can use the built-in 'sort' method...",
+          "postedDate": "2023-05-31"
+        },
+        {
+          "userAvatar": "https://img.freepik.com/premium-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg",
+          "username": "suraj123",
+          "answerText": "Another approach to sorting an array in JavaScript is by using a custom comparison function...",
+          "postedDate": "2023-06-01"
+        },
+        {
+          "userAvatar": "https://img.freepik.com/premium-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg",
+          "username": "sandhya123",
+          "answerText": "I recommend using a popular JavaScript library such as 'Lodash' for sorting arrays...",
+          "postedDate": "2023-06-01"
+        }
+      ]
     },
     {
       "id": 2,
-      "name": "Mark Johnson",
-      "image": "https://example.com/doctor-image.jpg",
-      "specialization": "Pediatrician",
-      "experience": 5,
-      "location": "Chicago",
-      "date": "2023-04-06T09:30:00.000Z",
-      "slots": 1,
-      "fee": 100
+      "userAvatar": "https://img.freepik.com/premium-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg",
+      "username": "ranjan123",
+      "questionTitle": "How to sort an array in JavaScript?",
+      "questionDescription": "I'm struggling with sorting an array in JavaScript. Can someone please provide guidance?",
+      "language": "JavaScript",
+      "upvotes": 10,
+      "noOfAnswer": 3,
+      "postedDate": "2023-05-30",
+      "answers": [
+        {
+          "userAvatar": "https://img.freepik.com/premium-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg",
+          "username": "ajit123",
+          "answerText": "To sort an array in JavaScript, you can use the built-in 'sort' method...",
+          "postedDate": "2023-05-31"
+        },
+        {
+          "userAvatar": "https://img.freepik.com/premium-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg",
+          "username": "suraj123",
+          "answerText": "Another approach to sorting an array in JavaScript is by using a custom comparison function...",
+          "postedDate": "2023-06-01"
+        },
+        {
+          "userAvatar": "https://img.freepik.com/premium-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg",
+          "username": "sandhya123",
+          "answerText": "I recommend using a popular JavaScript library such as 'Lodash' for sorting arrays...",
+          "postedDate": "2023-06-01"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "userAvatar": "https://img.freepik.com/premium-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg",
+      "username": "ranjan123",
+      "questionTitle": "How to sort an array in JavaScript?",
+      "questionDescription": "I'm struggling with sorting an array in JavaScript. Can someone please provide guidance?",
+      "language": "JavaScript",
+      "upvotes": 10,
+      "noOfAnswer": 3,
+      "postedDate": "2023-05-30",
+      "answers": [
+        {
+          "userAvatar": "https://img.freepik.com/premium-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg",
+          "username": "ajit123",
+          "answerText": "To sort an array in JavaScript, you can use the built-in 'sort' method...",
+          "postedDate": "2023-05-31"
+        },
+        {
+          "userAvatar": "https://img.freepik.com/premium-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg",
+          "username": "suraj123",
+          "answerText": "Another approach to sorting an array in JavaScript is by using a custom comparison function...",
+          "postedDate": "2023-06-01"
+        },
+        {
+          "userAvatar": "https://img.freepik.com/premium-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg",
+          "username": "sandhya123",
+          "answerText": "I recommend using a popular JavaScript library such as 'Lodash' for sorting arrays...",
+          "postedDate": "2023-06-01"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "userAvatar": "https://img.freepik.com/premium-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg",
+      "username": "ranjan123",
+      "questionTitle": "How to sort an array in JavaScript?",
+      "questionDescription": "I'm struggling with sorting an array in JavaScript. Can someone please provide guidance?",
+      "language": "JavaScript",
+      "upvotes": 10,
+      "noOfAnswer": 3,
+      "postedDate": "2023-05-30",
+      "answers": [
+        {
+          "userAvatar": "https://img.freepik.com/premium-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg",
+          "username": "ajit123",
+          "answerText": "To sort an array in JavaScript, you can use the built-in 'sort' method...",
+          "postedDate": "2023-05-31"
+        },
+        {
+          "userAvatar": "https://img.freepik.com/premium-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg",
+          "username": "suraj123",
+          "answerText": "Another approach to sorting an array in JavaScript is by using a custom comparison function...",
+          "postedDate": "2023-06-01"
+        },
+        {
+          "userAvatar": "https://img.freepik.com/premium-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg",
+          "username": "sandhya123",
+          "answerText": "I recommend using a popular JavaScript library such as 'Lodash' for sorting arrays...",
+          "postedDate": "2023-06-01"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "userAvatar": "https://img.freepik.com/premium-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg",
+      "username": "ranjan123",
+      "questionTitle": "How to sort an array in JavaScript?",
+      "questionDescription": "I'm struggling with sorting an array in JavaScript. Can someone please provide guidance?",
+      "language": "JavaScript",
+      "upvotes": 10,
+      "noOfAnswer": 3,
+      "postedDate": "2023-05-30",
+      "answers": [
+        {
+          "userAvatar": "https://img.freepik.com/premium-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg",
+          "username": "ajit123",
+          "answerText": "To sort an array in JavaScript, you can use the built-in 'sort' method...",
+          "postedDate": "2023-05-31"
+        },
+        {
+          "userAvatar": "https://img.freepik.com/premium-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg",
+          "username": "suraj123",
+          "answerText": "Another approach to sorting an array in JavaScript is by using a custom comparison function...",
+          "postedDate": "2023-06-01"
+        },
+        {
+          "userAvatar": "https://img.freepik.com/premium-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg",
+          "username": "sandhya123",
+          "answerText": "I recommend using a popular JavaScript library such as 'Lodash' for sorting arrays...",
+          "postedDate": "2023-06-01"
+        }
+      ]
     }
   ]
 }
